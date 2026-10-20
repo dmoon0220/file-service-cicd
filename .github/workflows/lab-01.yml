@@ -3,7 +3,7 @@ on:
   push:
     paths:
       - .github/workflows/lab-01.yml
-  workflow_dispatch
+  workflow_dispatch:
 jobs:
   hello:
     runs-on: ubuntu-24.04
