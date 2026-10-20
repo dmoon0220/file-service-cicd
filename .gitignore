@@ -33,3 +33,6 @@ credentials
 *.tfstate
 *.tfstate.*
 .terraform/
+AT 명령은 더 이상 사용되지 않습니다. 대신 schtasks.exe를 사용하십시오.
+
+잘못된 바인딩 핸들입니다.
