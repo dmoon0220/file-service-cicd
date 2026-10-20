@@ -17,3 +17,7 @@ jobs:
           nproc
       - name: 받기 전 폴더 목록
         run: ls -la
+      - name: 코드 받아 오기
+        uses: actions/checkout@v7
+      - name: 받은 후
+        run: ls -la
